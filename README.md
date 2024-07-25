@@ -2,8 +2,13 @@
 
 This is to test github pages and relations between pages. 
 
-You can either create a url as `./dir/page.md` or `./dir/page/index.md`. Both of these would work for a link to `./dir/page`. 
+For `/dir/page`, you can either create is as
+* `./dir/page.md` - a file 
+* `./dir/page/index.md` - a directory with an index.md file
 
-* [subpage](./subpage)
-* [subpage](./subpage/subpage)
-* [absolute](/tmp/subpage/subpage)
+Examples on [rolfrb.github.io/tmp](https://rolfrb.github.io/tmp)
+
+* [./subpage](./subpage): opens /subpage/index.md
+* [./subpage/subpage](./subpage/subpage) opens either /subpage/subpage.md or /subpage/subpage/index.md
+* [/tmp/subpage/subpage](/tmp/subpage/subpage) (absolute) also opens either /subpage/subpage.md or /subpage/subpage/index.md
+
