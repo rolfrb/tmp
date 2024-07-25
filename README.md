@@ -9,6 +9,6 @@ For `/dir/page`, you can either create is as
 Examples on [rolfrb.github.io/tmp](https://rolfrb.github.io/tmp)
 
 * [./subpage](./subpage): opens /subpage/index.md
-* [./subpage/subpage](./subpage/subpage) ./subpage/subpage opens either /subpage/subpage.md or /subpage/subpage/index.md
+* [./subpage/subpage](./subpage/subpage) opens either /subpage/subpage.md or /subpage/subpage/index.md
 * [/tmp/subpage/subpage](/tmp/subpage/subpage) (absolute) opens /subpage/subpage.md
 
